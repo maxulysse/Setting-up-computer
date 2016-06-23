@@ -14,7 +14,9 @@ sudo reboot
 Download the latest stable kernel 64bit version
 ``` bash
 cd ~/Downloads
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602-generic_4.6.2-040602.201606100516_amd64.deb http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602-lowlatency_4.6.2-040602.201606100516_amd64.deb http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-image-4.6.2-040602-generic_4.6.2-040602.201606100516_amd64.deb http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-image-4.6.2-040602-lowlatency_4.6.2-040602.201606100516_amd64.deb
+wget kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602_4.6.2-040602.201606100516_all.deb
+wget kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602-generic_4.6.2-040602.201606100516_amd64.deb
+wget kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-image-4.6.2-040602-generic_4.6.2-040602.201606100516_amd64.deb
 ```
 
 Other versions can be find [here](http://kernel.ubuntu.com/~kernel-ppa/mainline/)
@@ -24,4 +26,5 @@ Upgrade the kernel
 sudo dpkg -i linux-*.deb
 ```
 
-Based on this [guide](https://www.pcsteps.com/858-kernel-upgrade-linux-mint-ubuntu/)
+Cf [pcsteps.com](https://www.pcsteps.com/858-kernel-upgrade-linux-mint-ubuntu/)
+Based on this [yourownlinux.com](http://www.yourownlinux.com/2016/06/how-to-install-linux-kernel-4-6-2-in-linux.html)
