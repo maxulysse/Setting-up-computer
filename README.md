@@ -23,7 +23,7 @@ Other versions can be find [here](http://kernel.ubuntu.com/~kernel-ppa/mainline/
 
 Upgrade the kernel
 ``` bash
-sudo dpkg -i linux-*.deb
+sudo dpkg -i linux-headers-4.6.2*.deb linux-image-4.6.2*.deb
 ```
 
 Cf [pcsteps.com](https://www.pcsteps.com/858-kernel-upgrade-linux-mint-ubuntu/)
