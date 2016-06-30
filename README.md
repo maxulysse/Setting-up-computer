@@ -7,7 +7,7 @@
 - Install
 
 ## Upgrade Linux Kernel
-All versions can be find [here](http://kernel.ubuntu.com/~kernel-ppa/mainline/)
+All versions can be find on [kernel.ubuntu.com](http://kernel.ubuntu.com/~kernel-ppa/mainline/)
 
 ### Make sure system is up-to-date
 ``` bash
@@ -42,7 +42,7 @@ sudo reboot
 - [pcsteps.com](https://www.pcsteps.com/858-kernel-upgrade-linux-mint-ubuntu/)
 - [yourownlinux.com](http://www.yourownlinux.com/2016/06/how-to-install-linux-kernel-4-6-2-in-linux.html)
 
-## Setting up git, github & hub
+## Setting up all the coding stuff
 
 ### Install git
 ``` bash
@@ -50,7 +50,7 @@ sudo apt-get install git
 ```
 
 ### Getting hub
-You can directly download the latest binary on [github.com](https://github.com/github/hub/), but you can also compile your own using Go, and since it might come handy to have it set up...
+You can directly download the latest binary on [github.com/github/hub](https://github.com/github/hub/), but you can also compile your own using Go, and since it might come handy to have it set up...
 
 ### Setting up Go environnement
 All instructions are on [golang.org](https://golang.org/doc/install?download=go1.6.2.linux-amd64.tar.gz)
@@ -75,20 +75,23 @@ cd hub
 cd ..
 rm -rf hub
 ```
+Follow instructions on [github.com/github/hub](https://github.com/github/hub/tree/master/etc) for autocompletion
 
 ### Setting up Github
 - Checking for existing SSH keys: [help.github.com](https://help.github.com/articles/checking-for-existing-ssh-keys/#platform-linux)
 - Creating an SSH Key: [help.github.com](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux)
 - Adding the SSH key to the github account: [help.github.com](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux)
 
-## Getting Sublime Text 3
+### Using zsh
+Follow instructions on [github.com/MaxUlysse](https://github.com/MaxUlysse/myzsh)
+
+### Getting Sublime Text 3
 
 ```bash
 cd Downloads
 wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
 sudo dpkg -i sublime-text_build-3114_amd64.deb
 ```
-
 
 ### Getting all the intesting plugins
 - [Package Control](https://packagecontrol.io/installation)
@@ -97,6 +100,19 @@ sudo dpkg -i sublime-text_build-3114_amd64.deb
 - [Markdown Editing](https://github.com/SublimeText-Markdown/MarkdownEditing)
 - [SideBar Enhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
 - [Trimmer](https://github.com/jonlabelle/Trimmer)
+
+### Building essentials
+
+```bash
+sudo apt-get install python-pip python-dev build-essential zlib1g-dev
+pip install Cython --user
+```
+
+### R
+
+```
+sudo apt-get install r-base-core libcurl4-gnutls-dev
+```
 
 ## Getting Owncloud & Dropbox
 
@@ -114,6 +130,10 @@ apt-get install owncloud-client
 ### Dropbox
 
 Instructions are on [dropbox.com](https://www.dropbox.com/install?os=lnx)
+
+### Eduroam
+
+Instructions and installer are on [cat.eduroam.org](https://cat.eduroam.org/)
 
 ## Other programs
 ```bash
