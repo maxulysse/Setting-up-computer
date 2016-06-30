@@ -50,7 +50,7 @@ sudo apt-get install git
 ```
 
 ### Getting hub
-You can directly download the latest binary on [github.com/github/hub](https://github.com/github/hub/), but you can also compile your own using Go, and since it might come handy to have it set up...
+You can directly download the latest binary on [github.com/github/hub](https://github.com/github/hub/), but you can also compile your own using [go](https://golang.org/), and since it might come handy to have it set up...
 
 ### Setting up Go environnement
 All instructions are on [golang.org](https://golang.org/doc/install?download=go1.6.2.linux-amd64.tar.gz)
