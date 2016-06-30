@@ -136,6 +136,13 @@ Instructions are on [dropbox.com](https://www.dropbox.com/install?os=lnx)
 Instructions and installer are on [cat.eduroam.org](https://cat.eduroam.org/)
 
 ## Other programs
+Graphic
 ```bash
-sudo apt-get install inkscape
+sudo apt-get install inkscape optipng
 ```
+
+Writing
+```bash
+sudo apt-get install texlive texlive-latex-extra texlive-full
+```
+For [Mendeley](https://mendeley.com), follow instructions on (mendeley.com)(https://www.mendeley.com/download-mendeley-desktop/debian/instructions/)
