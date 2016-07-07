@@ -16,14 +16,15 @@ All versions can be find on [kernel.ubuntu.com](http://kernel.ubuntu.com/~kernel
 sudo apt-get update && sudo apt-get dist-upgrade -y
 ```
 
-Reboot
+### Reboot
+
 ``` bash
 sudo reboot
 ```
 
 ### Download the latest stable kernel version
 
-Here, when this is written, it's for v4.6.2 (64bit)
+Here, when this is written, it's v4.6.2 (64bit)
 ``` bash
 cd ~/Downloads
 wget kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-headers-4.6.2-040602_4.6.2-040602.201606100516_all.deb
@@ -37,7 +38,8 @@ wget kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.2-yakkety/linux-image-4.6.2-040
 sudo dpkg -i linux-headers-4.6.2*.deb linux-image-4.6.2*.deb
 ```
 
-Reboot
+### Reboot
+
 ``` bash
 sudo reboot
 ```
@@ -69,13 +71,13 @@ tar -C /usr/local -xzf go1.6.2.linux-amd64.tar.gz
 rm -rf go1.6.2.linux-amd64.tar.gz
 ```
 
-add to .bashrc
+Add to .bashrc
 ```
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOROOT/bin:/usr/local/go/bin
 ```
 
-Installing hub
+### Installing hub
 ```bash
 git clone https://github.com/github/hub.git
 cd hub
