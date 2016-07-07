@@ -132,13 +132,20 @@ apt-get install owncloud-client
 Instructions are on [dropbox.com](https://www.dropbox.com/install?os=lnx)
 
 ### Eduroam
-
 Instructions and installer are on [cat.eduroam.org](https://cat.eduroam.org/)
 
 ## Other programs
+Tools
+``` bash
+sudo apt-get install curl
+```
+
 Graphic
 ```bash
 sudo apt-get install inkscape optipng
+sudo add-apt-repository ppa:svg-cleaner-team/svgcleaner
+sudo apt-get update
+sudo apt-get install svgcleaner
 ```
 
 Writing
