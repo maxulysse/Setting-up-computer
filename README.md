@@ -165,3 +165,10 @@ Writing
 sudo apt-get install texlive texlive-latex-extra texlive-full
 ```
 For [Mendeley](https://mendeley.com), follow instructions on (mendeley.com)(https://www.mendeley.com/download-mendeley-desktop/debian/instructions/)
+
+Y-PPA-Manager for managing PPAs
+```bash
+sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+sudo apt-get update
+sudo apt-get install y-ppa-manager
+```
