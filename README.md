@@ -142,17 +142,18 @@ apt-get install owncloud-client
 
 Instructions are on [dropbox.com](https://www.dropbox.com/install?os=lnx)
 
-### Eduroam
+## Eduroam
 
 Instructions and installer are on [cat.eduroam.org](https://cat.eduroam.org/)
 
 ## Other programs
-Tools
+
+### Tools
 ``` bash
 sudo apt-get install curl
 ```
 
-Graphic
+### Graphic
 ```bash
 sudo apt-get install inkscape optipng
 sudo add-apt-repository ppa:svg-cleaner-team/svgcleaner
@@ -160,13 +161,13 @@ sudo apt-get update
 sudo apt-get install svgcleaner
 ```
 
-Writing
+### Writing
 ```bash
 sudo apt-get install texlive texlive-latex-extra texlive-full
 ```
 For [Mendeley](https://mendeley.com), follow instructions on (mendeley.com)(https://www.mendeley.com/download-mendeley-desktop/debian/instructions/)
 
-Y-PPA-Manager for managing PPAs
+### Y-PPA-Manager for managing PPAs
 ```bash
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager
 sudo apt-get update
