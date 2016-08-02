@@ -97,6 +97,10 @@ Follow instructions on [github.com/github/hub](https://github.com/github/hub/tre
 
 Follow instructions on [github.com/MaxUlysse](https://github.com/MaxUlysse/myzsh)
 
+### Adding The Fuck
+
+Follow instructions on [github.com/nvbn](https://github.com/nvbn/thefuck)
+
 ### Getting Sublime Text 3
 
 ```bash
@@ -117,7 +121,7 @@ sudo dpkg -i sublime-text_build-3114_amd64.deb
 ### Building essentials
 
 ```bash
-sudo apt-get install python-pip python-dev build-essential zlib1g-dev
+sudo apt-get install python-pip python-dev build-essential zlib1g-dev python3-dev python3-pip
 pip install Cython --user
 ```
 
