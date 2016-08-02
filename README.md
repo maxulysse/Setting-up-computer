@@ -159,7 +159,7 @@ sudo apt-get install curl
 ### Graphic
 
 ```bash
-sudo apt-get install inkscape optipng
+sudo apt-get install inkscape optipng pdftk
 sudo add-apt-repository ppa:svg-cleaner-team/svgcleaner
 sudo apt-get update
 sudo apt-get install svgcleaner
