@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/MaxUlysse/Setting-up-computer.png?label=ready&title=Ready)](https://waffle.io/MaxUlysse/Setting-up-computer)
 # Setting up a new computer
 
 ## Install Linux Mint
