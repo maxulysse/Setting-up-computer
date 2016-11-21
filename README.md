@@ -180,6 +180,10 @@ For [Mendeley](https://mendeley.com), follow instructions on (mendeley.com)(http
 
 Instructions are on [calibre-ebook.com](https://calibre-ebook.com/download_linux)
 
+### Deluge
+
+Instructions are on [dev.deluge-torrent.org](http://dev.deluge-torrent.org/)
+
 ### Y-PPA-Manager for managing PPAs
 
 ```bash
@@ -187,3 +191,7 @@ sudo add-apt-repository ppa:webupd8team/y-ppa-manager
 sudo apt-get update
 sudo apt-get install y-ppa-manager
 ```
+
+### Lmod
+
+Instructions are on [lmod.readthedocs.io](http://lmod.readthedocs.io/en/latest/index.html)
