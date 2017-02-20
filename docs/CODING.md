@@ -85,3 +85,14 @@ pip install Cython --user
 ```
 sudo apt-get install r-base-core libcurl4-gnutls-dev
 ```
+
+## Docker
+
+Follow instructions on [linuxbsdos.com](http://linuxbsdos.com/2016/12/13/how-to-install-docker-and-run-docker-containers-on-linux-mint-1818-1/)
+
+## Nextflow
+
+```
+curl -fsSL get.nextflow.io | bash
+```
+Then `mv nextflow` to somewhere in your `$PATH`
