@@ -50,22 +50,28 @@ Follow instructions on [github.com/MaxUlysse](https://github.com/MaxUlysse/myzsh
 
 Follow instructions on [github.com/nvbn](https://github.com/nvbn/thefuck)
 
-## Getting Sublime Text 3
+## Getting Atom
 
-```bash
-cd Downloads
-wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
-sudo dpkg -i sublime-text_build-3114_amd64.deb
-```
+.deb is on [atom.io](https://atom.io/download/deb)
 
-## Getting all the intesting plugins
+## My top plugins
 
-- [Package Control](https://packagecontrol.io/installation)
-- [Git Gutter](https://github.com/jisaacks/GitGutter)
-- [Bracket Highliter](https://packagecontrol.io/packages/BracketHighlighter)
-- [Markdown Editing](https://github.com/SublimeText-Markdown/MarkdownEditing)
-- [SideBar Enhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
-- [Trimmer](https://github.com/jonlabelle/Trimmer)
+- atom-beautify
+- auto-detect-indentation
+- docblokr
+- highlight-line
+- highlight-selected
+- language-docker
+- language-groovy
+- language-latex
+- language-markdown
+- language-r
+- markdown-preview-plus
+- merge-conflicts
+- minimap
+- minimap-cursor-line
+- minimap-highlight-selected
+- minimap-selection
 
 ## Building essentials
 

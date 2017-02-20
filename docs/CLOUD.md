@@ -1,15 +1,8 @@
 # Getting cloud
 
-## Owncloud
+## Compile Nextcloud client
 
-Instructions are on [software.opensuse.org](https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client)
-
-Should be done as root
-```bash
-echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_8.0/ /' >> /etc/apt/sources.list.d/owncloud-client.list 
-apt-get update
-apt-get install owncloud-client
-```
+Instructions are on [open-freax.fr](https://open-freax.fr/compiler-client-nextcloud-debian-ubuntu-mint/)
 
 ## Dropbox
 
