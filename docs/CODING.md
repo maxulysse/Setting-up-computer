@@ -12,15 +12,13 @@ You can directly download the latest binary on [github.com/github/hub](https://g
 
 ## Setting up Go environnement
 
-All instructions are on [golang.org](https://golang.org/doc/install?download=go1.6.2.linux-amd64.tar.gz)
+All instructions are on [golang.org](https://golang.org/doc/install)
 ```bash
-cd Downloads
-sudo wget https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.6.2.linux-amd64.tar.gz
-rm -rf go1.6.2.linux-amd64.tar.gz
+tar -C /usr/local -xzf go[VERSION].linux-amd64.tar.gz
+rm -rf go[VERSION].linux-amd64.tar.gz
 ```
 
-Add to .bashrc
+Add to your `.bashrc` or your `.zshrc`
 ```
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOROOT/bin:/usr/local/go/bin
@@ -46,15 +44,11 @@ Follow instructions on [github.com/github/hub](https://github.com/github/hub/tre
 
 Follow instructions on [github.com/MaxUlysse](https://github.com/MaxUlysse/myzsh)
 
-## Adding The Fuck
-
-Follow instructions on [github.com/nvbn](https://github.com/nvbn/thefuck)
-
 ## Getting Atom
 
 .deb is on [atom.io](https://atom.io/download/deb)
 
-## My top plugins
+## My plugins
 
 - atom-beautify
 - auto-detect-indentation
@@ -76,7 +70,7 @@ Follow instructions on [github.com/nvbn](https://github.com/nvbn/thefuck)
 ## Building essentials
 
 ```bash
-sudo apt-get install python-pip python-dev build-essential zlib1g-dev python3-dev python3-pip
+sudo apt-get install python-pip python-dev build-essential zlib1g-dev python3-dev python3-pip ruby-dev
 pip install Cython --user
 ```
 
@@ -89,6 +83,11 @@ sudo apt-get install r-base-core libcurl4-gnutls-dev
 ## Docker
 
 Follow instructions on [linuxbsdos.com](http://linuxbsdos.com/2016/12/13/how-to-install-docker-and-run-docker-containers-on-linux-mint-1818-1/)
+
+Don't forget to add yourself to the `docker` group and then reboot
+```
+usermod -aG docker ${USER}
+```
 
 ## Nextflow
 
