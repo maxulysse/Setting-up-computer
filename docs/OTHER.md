@@ -1,11 +1,5 @@
 # Other programs
 
-## Tools
-
-``` bash
-sudo apt-get install curl
-```
-
 ## Graphic
 
 ```bash
