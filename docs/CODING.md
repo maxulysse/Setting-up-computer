@@ -6,33 +6,9 @@
 sudo apt-get install git
 ```
 
-## Getting hub
+## Getting GitHub CLI
 
-You can directly download the latest binary on [github.com/github/hub](https://github.com/github/hub/), but you can also compile your own using [go](https://golang.org/), and since it might come handy to have it set up...
-
-## Setting up Go environnement
-
-All instructions are on [golang.org](https://golang.org/doc/install)
-```bash
-tar -C /usr/local -xzf go[VERSION].linux-amd64.tar.gz
-rm -rf go[VERSION].linux-amd64.tar.gz
-```
-
-Add to your `.bashrc` or your `.zshrc`
-```
-export GOPATH=$HOME/workspace/go
-export PATH=$PATH:$GOROOT/bin:/usr/local/go/bin
-```
-
-## Installing hub
-```bash
-git clone https://github.com/github/hub.git
-cd hub
-./script/build -o ~/bin/hub
-cd ..
-rm -rf hub
-```
-Follow instructions on [github.com/github/hub](https://github.com/github/hub/tree/master/etc) for autocompletion
+[Install on Linux](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
 ## Setting up Github
 
@@ -42,30 +18,7 @@ Follow instructions on [github.com/github/hub](https://github.com/github/hub/tre
 
 ## Using zsh
 
-Follow instructions on [github.com/MaxUlysse](https://github.com/MaxUlysse/myzsh)
-
-## Getting Atom
-
-.deb is on [atom.io](https://atom.io/download/deb)
-
-## My plugins
-
-- atom-beautify
-- auto-detect-indentation
-- docblokr
-- highlight-line
-- highlight-selected
-- language-docker
-- language-groovy
-- language-latex
-- language-markdown
-- language-r
-- markdown-preview-plus
-- merge-conflicts
-- minimap
-- minimap-cursor-line
-- minimap-highlight-selected
-- minimap-selection
+Follow instructions on [github.com/maxulysse](https://github.com/maxulysse/myzsh)
 
 ## Building essentials
 
@@ -95,3 +48,4 @@ usermod -aG docker ${USER}
 curl -fsSL get.nextflow.io | bash
 ```
 Then `mv nextflow` to somewhere in your `$PATH`
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
