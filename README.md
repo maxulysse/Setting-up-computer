@@ -17,9 +17,6 @@ See [guide](docs/CODING.md)
 ## Getting the cloud
 See [guide](docs/CLOUD.md)
 
-## Eduroam
-See guide on [cat.eduroam.org](https://cat.eduroam.org/)
-
 ## Other programms
 
 See [guide](docs/OTHER.md)
